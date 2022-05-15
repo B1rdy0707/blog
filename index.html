@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enari's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- START NAV -->
+
+    <header id="navbar">
+      <div class="logo">
+  
+        <ul class="navbar-nav navbar-right">
+          <li id="home">
+            <a href="/index.html" class="navbar-nav-link">Home</a>
+          </li>
+          <!-- <li id="contact">
+            <a href="/blog.html" class="navbar-nav-link">Blog</a>
+          </li> -->
+          <li id="about">
+            <a href="/about.html" class="navbar-nav-link">About</a>
+          </li>
+          <li id="contact">
+            <a href="/contact" class="navbar-nav-link">Resume</a>
+          </li>
+        </ul>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+   <!-- START NAV -->
+    <!-- My Work -->
+    <section id="welcome-section">
+      <h1 class="section__title section__title--work">👋</h2>
+      <h2 class="section__title section__title--work">Hey there, I'm Enari</h2>
+      <h3 class="section__subtitle section__subtitle--work">
+        I’am a Front End Developer in China.
+      </h3>
+    </section>
+
+
+    <section class="my-work" id = "projects" >
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/portfolio-cover-01.png" alt="" class="portfolio__img" />
+            <div class = "project-title">
+              <h4>Zoomily</h4>
+               <p>Branding / Visual Design</p>
+             </div>
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-joyoung.html" class="portfolio__item">
+          <img src="img/portfolio-cover-02.png" alt="" class="portfolio__img" />
+          <div class = "project-title">
+            <h4>Joyoung</h4>
+             <p>Branding / Package Design</p>
+           </div>
+      </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="portfolio-tencent.html" class="portfolio__item">
+          <img src="img/portfolio-cover-03.png" alt="" class="portfolio__img" />
+          <div class = "project-title">
+            <h4>Tencent Create for Good</h4>
+             <p>Branding / Book design</p>
+           </div>
+      </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="portfolio-bigwin.html" class="portfolio__item">
+          <img src="img/portfolio-cover-04.png" alt="" class="portfolio__img" />
+          <div class = "project-title">
+            <h4>Carnivo Bigwin</h4>
+             <p>Branding / Ip Design / Package Design</p>
+           </div>
+      </a>
+
+  
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com">
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item" >
+          <a class="social-list__link" id="profile-link" target="_blank" href="https://github.com/B1rdy0707">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
